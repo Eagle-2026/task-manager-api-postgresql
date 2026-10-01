@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "Node16",
+
+    "rootDir": ".",
+    "outDir": "dist",
+
+    "allowJs": true,
+    "checkJs": false,
+
+    "strict": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    "resolveJsonModule": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    "noEmitOnError": true,
+
+    "types": [
+      "node"
+    ]
+  },
+
+  "include": [
+    "app.ts",
+    "server.ts",
+
+    "config/**/*",
+    "controllers/**/*",
+    "docs/**/*",
+    "middleware/**/*",
+    "queues/**/*",
+    "repositories/**/*",
+    "routes/**/*",
+    "services/**/*",
+    "types/**/*",
+    "utils/**/*",
+    "validators/**/*",
+    "workers/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tests"
+  ]
+}
